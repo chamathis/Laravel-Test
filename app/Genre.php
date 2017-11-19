@@ -16,3 +16,4 @@ class Genre extends Model
         return $this->belongsToMany(Film::class,'film_genre','film_id','genre_id');
     }
 }
+

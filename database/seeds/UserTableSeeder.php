@@ -21,6 +21,7 @@ class UserTableSeeder extends Seeder
             'email' => 'derrick.long17@example.com',
             'password' => bcrypt('abcd1234'),
         ]);
+        
 
     }
 }

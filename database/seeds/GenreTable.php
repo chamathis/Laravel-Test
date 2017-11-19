@@ -28,5 +28,6 @@ class GenreTable extends Seeder
             'desc' => 'TV description'
         ]);
 
+        
     }
 }

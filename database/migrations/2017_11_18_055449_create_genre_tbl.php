@@ -32,4 +32,5 @@ class CreateGenreTbl extends Migration
     {
         Schema::dropIfExists('genre_tbl');
     }
+    
 }

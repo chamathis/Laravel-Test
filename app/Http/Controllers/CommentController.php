@@ -48,8 +48,6 @@ class CommentController extends Controller
             'comment' => 'required'
         ]);
 
-
-
         if ($v->fails()){
             $vMsgs = [ 'error' => $v->errors()->all(),
                 'success' => 0];

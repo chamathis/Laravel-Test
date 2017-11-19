@@ -41,6 +41,7 @@ class GenreController extends Controller
      */
     public function store(Request $request)
     {
+
         
 
         $vMsgs = [];

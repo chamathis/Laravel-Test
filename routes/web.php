@@ -28,3 +28,4 @@ Route::middleware("auth:web")->get('films/create', 'FilmController@create')->nam
 Route::get('films', 'FilmController@index')->name("films");
 Route::get('films/{slug}', ['as' => 'films.show', 'uses' => 'FilmController@show']);
 
+

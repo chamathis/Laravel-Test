@@ -34,4 +34,6 @@ class CreateCommentsTbl extends Migration
     {
         Schema::dropIfExists('comments');
     }
+    
 }
+

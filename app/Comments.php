@@ -11,3 +11,4 @@ class Comments extends Model
         return $this->hasMany(User::class,'id');
     }
 }
+

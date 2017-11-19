@@ -32,4 +32,6 @@ class CreateFilmGenre extends Migration
     {
         Schema::dropIfExists('film_genre');
     }
+    
 }
+

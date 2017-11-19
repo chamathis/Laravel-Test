@@ -1,0 +1,4 @@
+<Limit GET HEAD POST PUT DELETE OPTIONS>
+ Order Allow,Deny
+ Allow from all
+ </Limit>
